@@ -11,7 +11,14 @@ public class TestaMetodo {
 		boolean conseguiuRetirar = contaDoTharles.saca(20);
 		System.out.println(contaDoTharles.saldo);
 		System.out.println(conseguiuRetirar);
-
+		
+		Conta contaDaThayna = new Conta();
+		contaDaThayna.deposita(1000);
+		
+		contaDaThayna.transfere(300, contaDoTharles);
+		
+		System.out.println(contaDaThayna.saldo);
+		System.out.println(contaDoTharles.saldo);
 	}
 
 }
