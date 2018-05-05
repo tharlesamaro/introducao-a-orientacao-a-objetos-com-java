@@ -11,9 +11,9 @@ public class TestaBanco {
 		Conta contaDoTharles = new Conta();
 		contaDoTharles.deposita(100);
 		
-		contaDoTharles.titular = tharles;
+		contaDoTharles.setTitular(tharles);
 		
-		System.out.println(contaDoTharles.titular.nome);
+		System.out.println(contaDoTharles.getTitular().nome);
 
 	}
 
