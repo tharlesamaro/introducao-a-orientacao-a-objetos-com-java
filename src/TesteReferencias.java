@@ -3,7 +3,7 @@ public class TesteReferencias {
 
     public static void main(String[] args) {
         Conta primeiraConta = new Conta();
-        primeiraConta.setSaldo(300);
+        primeiraConta.deposita(300);
         System.out.println("Saldo da primeira conta: " + primeiraConta.getSaldo());
 
         Conta segundaConta = primeiraConta;
